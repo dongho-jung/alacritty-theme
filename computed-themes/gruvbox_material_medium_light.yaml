@@ -1,0 +1,31 @@
+key_bindings:
+  - {key: Left, mods: Shift, chars: "\eOH", mode: AppCursor}
+  - {key: Left, mods: Shift, chars: "\e[H", mode: ~AppCursor}
+  - {key: Right, mods: Shift, chars: "\eOF", mode: AppCursor}
+  - {key: Right, mods: Shift, chars: "\e[F", mode: ~AppCursor}
+# Colors (Gruvbox Material Medium Light)
+colors:
+  # Default colors
+  primary:
+    background: '#fbf1c7'
+    foreground: '#654735'
+  # Normal colors
+  normal:
+    black: '#654735'
+    red: '#c14a4a'
+    green: '#6c782e'
+    yellow: '#b47109'
+    blue: '#45707a'
+    magenta: '#945e80'
+    cyan: '#4c7a5d'
+    white: '#eee0b7'
+  # Bright colors (same as normal colors)
+  bright:
+    black: '#654735'
+    red: '#c14a4a'
+    green: '#6c782e'
+    yellow: '#b47109'
+    blue: '#45707a'
+    magenta: '#945e80'
+    cyan: '#4c7a5d'
+    white: '#eee0b7'
