@@ -1,4 +1,5 @@
-key_bindings:
+key:
+  bindings:
   - { key: Left,     mods: Shift,         chars: "\x1bOH",   mode: AppCursor   }
   - { key: Left,     mods: Shift,         chars: "\x1b[H",   mode: ~AppCursor  }
   - { key: Right,    mods: Shift,         chars: "\x1bOF",   mode: AppCursor   }

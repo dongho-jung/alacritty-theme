@@ -1,8 +1,9 @@
-key_bindings:
-  - {key: Left, mods: Shift, chars: "\eOH", mode: AppCursor}
-  - {key: Left, mods: Shift, chars: "\e[H", mode: ~AppCursor}
-  - {key: Right, mods: Shift, chars: "\eOF", mode: AppCursor}
-  - {key: Right, mods: Shift, chars: "\e[F", mode: ~AppCursor}
+key:
+  bindings:
+    - {key: Left, mods: Shift, chars: "\eOH", mode: AppCursor}
+    - {key: Left, mods: Shift, chars: "\e[H", mode: ~AppCursor}
+    - {key: Right, mods: Shift, chars: "\eOF", mode: AppCursor}
+    - {key: Right, mods: Shift, chars: "\e[F", mode: ~AppCursor}
 # Colors (Gruvbox light)
 colors:
   # Default colors

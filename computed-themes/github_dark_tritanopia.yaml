@@ -1,9 +1,10 @@
 # (Github Dark Tritanopia) Colors for Alacritty
-key_bindings:
-  - {key: Left, mods: Shift, chars: "\eOH", mode: AppCursor}
-  - {key: Left, mods: Shift, chars: "\e[H", mode: ~AppCursor}
-  - {key: Right, mods: Shift, chars: "\eOF", mode: AppCursor}
-  - {key: Right, mods: Shift, chars: "\e[F", mode: ~AppCursor}
+key:
+  bindings:
+    - {key: Left, mods: Shift, chars: "\eOH", mode: AppCursor}
+    - {key: Left, mods: Shift, chars: "\e[H", mode: ~AppCursor}
+    - {key: Right, mods: Shift, chars: "\eOF", mode: AppCursor}
+    - {key: Right, mods: Shift, chars: "\e[F", mode: ~AppCursor}
 colors:
   # Default colors
   primary:

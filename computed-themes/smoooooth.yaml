@@ -1,9 +1,10 @@
 # Color theme ported from iTerm 2: Smoooooth
-key_bindings:
-  - {key: Left, mods: Shift, chars: "\eOH", mode: AppCursor}
-  - {key: Left, mods: Shift, chars: "\e[H", mode: ~AppCursor}
-  - {key: Right, mods: Shift, chars: "\eOF", mode: AppCursor}
-  - {key: Right, mods: Shift, chars: "\e[F", mode: ~AppCursor}
+key:
+  bindings:
+    - {key: Left, mods: Shift, chars: "\eOH", mode: AppCursor}
+    - {key: Left, mods: Shift, chars: "\e[H", mode: ~AppCursor}
+    - {key: Right, mods: Shift, chars: "\eOF", mode: AppCursor}
+    - {key: Right, mods: Shift, chars: "\e[F", mode: ~AppCursor}
 colors:
   primary:
     foreground: '0xdbdbdb'

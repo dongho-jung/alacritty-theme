@@ -1,8 +1,9 @@
-key_bindings:
-  - {key: Left, mods: Shift, chars: "\eOH", mode: AppCursor}
-  - {key: Left, mods: Shift, chars: "\e[H", mode: ~AppCursor}
-  - {key: Right, mods: Shift, chars: "\eOF", mode: AppCursor}
-  - {key: Right, mods: Shift, chars: "\e[F", mode: ~AppCursor}
+key:
+  bindings:
+    - {key: Left, mods: Shift, chars: "\eOH", mode: AppCursor}
+    - {key: Left, mods: Shift, chars: "\e[H", mode: ~AppCursor}
+    - {key: Right, mods: Shift, chars: "\eOF", mode: AppCursor}
+    - {key: Right, mods: Shift, chars: "\e[F", mode: ~AppCursor}
 # Colors (MSX-like)
 # Notice that MSX used blue as background so [bright] blue and [bright] black
 # are reversed in this theme. Also MSX had only 15 colors (color 0 was
