@@ -17,17 +17,18 @@ mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 ```
 
-Add an import to your `alacritty.yml` (Replace `{theme}` with your desired
+Add an import to your `alacritty.toml` (Replace `{theme}` with your desired
 colorscheme):
 
-```yaml
-import:
- - ~/.config/alacritty/themes/themes/{theme}.yaml
+```toml
+import = [
+    "~/.config/alacritty/themes/themes/{theme}.toml"
+]
 ```
 
 ### Manual
 
-To manually include a colorscheme in an existing `alacritty.yml`, you just need
+To manually include a colorscheme in an existing `alacritty.toml`, you just need
 to copy the entire content of the theme into the root level of your
 configuration file.
 
@@ -38,6 +39,7 @@ configuration file.
 |                                   **_afterglow_**<br>[source](https://github.com/YabataDesign/afterglow-theme)                                    |        ![base16_default_dark](images/afterglow.png)        |
 |                                   **_alabaster_**<br>[source](https://github.com/tonsky/vscode-theme-alabaster)                                   |             ![alabaster](images/alabaster.png)             |
 |                                   **_alabaster_dark_**<br>[source](https://github.com/gargakshit/vscode-theme-alabaster-dark)                     |        ![alabaster_dark](images/alabaster_dark.png)        |
+|                **_alacritty_0_12_**<br>[source](https://github.com/alacritty/alacritty/blob/v0.12.3/alacritty/src/config/color.rs)                |        ![alacritty_0_12](images/alacritty_0_12.png)        |
 |                                      **_argonaut_**<br>[source](https://github.com/pwaleczek/Argonaut-theme)                                      |        ![base16_default_dark](images/argonaut.png)         |
 |                  **_atom_one_light_**<br>[source](https://github.com/dexpota/kitty-themes/blob/master/themes/AtomOneLight.conf)                   |        ![atom_one_light](images/atom_one_light.png)        |
 |                                        **_ayu_dark_**<br>[source](https://github.com/ayu-theme/ayu-colors)                                        |              ![ayu_dark](images/ayu_dark.png)              |
@@ -49,14 +51,17 @@ configuration file.
 |                                              **_breeze_**<br>[source](https://github.com/KDE/breeze)                                              |                ![breeze](images/breeze.png)                |
 |              **_campbell_**<br>[source](https://blogs.msdn.microsoft.com/commandline/2017/08/02/updating-the-windows-console-colors)              |              ![campbell](images/campbell.png)              |
 |              **_carbonfox_**<br>[source](https://github.com/edeneast/nightfox.nvim/raw/main/extra/carbonfox/nightfox_alacritty.yml)               |             ![carbonfox](images/carbonfox.png)             |
-|              **_catppuccin_**<br>[source](https://github.com/catppuccin/catppuccin)                                                               |              ![catppuccin](images/catppuccin.png)          |
+|                                    **_catppuccin_frappe_**<br>[source](https://github.com/catppuccin/alacritty)                                   |     ![catppuccin_frappe](images/catppuccin_frappe.png)     |
+|                                 **_catppuccin_latte_**<br>[source](https://github.com/catppuccin/alacritty)                                       |      ![catppuccin_latte](images/catppuccin_latte.png)      |
+|                                  **_catppuccin_macchiato_**<br>[source](https://github.com/catppuccin/alacritty)                                  |  ![catppuccin_macchiato](images/catppuccin_macchiato.png)  |
+|                                    **_catppuccin_mocha_**<br>[source](https://github.com/catppuccin/alacritty)                                    |      ![catppuccin_mocha](images/catppuccin_mocha.png)      |
 |                               **_challenger_deep_**<br>[source](https://github.com/challenger-deep-theme/alacritty)                               |       ![challenger_deep](images/challenger_deep.png)       |
 |                                              **_city_lights_**<br>[source](https://citylights.xyz/)                                               |           ![city_lights](images/citylights.png)            |
 |                                 **_Cobalt2_**<br>[source](https://github.com/wesbos/cobalt2/tree/master/Cobalt2)                                  |               ![Cobalt2](images/Cobalt2.png)               |
 |                                 **_cyber_punk_neon_**<br>[source](https://github.com/Roboron3042/Cyberpunk-Neon)                                  |       ![cyber_punk_neon](images/cyber_punk_neon.png)       |
 |                                                **_darcula_**<br>[source](https://draculatheme.com)                                                |               ![darcula](images/darcula.png)               |
 |         **_dark_pastels_**<br>[source](https://invent.kde.org/utilities/konsole/-/blob/master/data/color-schemes/DarkPastels.colorscheme)         |          ![dark_pastels](images/dark_pastels.png)          |
-|                                                                  **_deep_space_**                                                                 |             ![depp_space](images/deep_space.png)           |                                         
+|                                                                  **_deep_space_**                                                                 |             ![depp_space](images/deep_space.png)           |
 |                                     **_doom_one_**<br>[source](https://github.com/hlissner/emacs-doom-themes)                                     |              ![doom_one](images/doom_one.png)              |
 |                                                **_dracula_**<br>[source](https://draculatheme.com)                                                |               ![dracula](images/dracula.png)               |
 |                                     **_everforest_dark_**<br>[source](https://github.com/sainnhe/everforest)                                      |       ![everforest_dark](images/everforest_dark.png)       |
@@ -84,6 +89,7 @@ configuration file.
 |                                 **_horizon-dark_**<br>[source](https://github.com/jolaleye/horizon-theme-vscode)                                  |          ![horizon-dark](images/horizon-dark.png)          |
 |                                                     **_hyper_**<br>[source](https://hyper.is)                                                     |                 ![hyper](images/hyper.png)                 |
 |                                 **_inferno_**<br>[source](https://github.com/hafiz-muhammad/inferno-alacritty-theme)                              |                 ![inferno](images/inferno.png)             |
+|                                 **_iris_**<br>[source](https://github.com/DioptricDesign/Iris)                                                    |                 ![iris](images/iris.png)                   |
 |                                                                    **_iterm_**                                                                    |                 ![iterm](images/iterm.png)                 |
 |                                 **_kanagawa_dragon_**<br>[source](https://github.com/rebelot/kanagawa.nvim)                                       |          ![kanagawa_dragon](images/kanagawa_dragon.png)    |
 |                                  **_kanagawa_wave_**<br>[source](https://github.com/rebelot/kanagawa.nvim)                                        |          ![kanagawa_wave](images/kanagawa_wave.png)        |
@@ -147,10 +153,9 @@ repository.
 
 To add a new theme, just create a Pull Request with the following changes:
 
- - Add your theme to the `themes` directory with the `{theme}.yaml` file format
+ - Add your theme to the `themes` directory with the `{theme}.toml` file format
  - Create a screenshot of your theme using the [`print_colors.sh`](./print_colors.sh) script
  - Add the screenshot to the `images` directory with the `{theme}.png` file format
- - Add your theme to the `schemes.yaml`
  - Add your theme to the `README.md`, following alphabetical ordering
 
 ## Maintainers
