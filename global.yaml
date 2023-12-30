@@ -1,4 +1,4 @@
-key:
+keyboard:
   bindings:
   - { key: Left,     mods: Shift,         chars: "\x1bOH",   mode: AppCursor   }
   - { key: Left,     mods: Shift,         chars: "\x1b[H",   mode: ~AppCursor  }

@@ -1,0 +1,23 @@
+[[keyboard.bindings]]
+chars = "\u001BOH"
+key = "Left"
+mode = "AppCursor"
+mods = "Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[H"
+key = "Left"
+mode = "~AppCursor"
+mods = "Shift"
+
+[[keyboard.bindings]]
+chars = "\u001BOF"
+key = "Right"
+mode = "AppCursor"
+mods = "Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[F"
+key = "Right"
+mode = "~AppCursor"
+mods = "Shift"
