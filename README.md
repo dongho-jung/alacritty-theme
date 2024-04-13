@@ -41,7 +41,10 @@ configuration file.
 |                                   **_alabaster_dark_**<br>[source](https://github.com/gargakshit/vscode-theme-alabaster-dark)                     |        ![alabaster_dark](images/alabaster_dark.png)        |
 |                **_alacritty_0_12_**<br>[source](https://github.com/alacritty/alacritty/blob/v0.12.3/alacritty/src/config/color.rs)                |        ![alacritty_0_12](images/alacritty_0_12.png)        |
 |                                      **_argonaut_**<br>[source](https://github.com/pwaleczek/Argonaut-theme)                                      |        ![base16_default_dark](images/argonaut.png)         |
+|             **_ashes_dark_**<br>[source](https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes)                               |        ![base16_ashes_dark](images/ashes_dark.png)         |
+|             **_ashes_light_**<br>[source](https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes)                              |        ![base16_ashes_light](images/ashes_light.png)       |
 |                  **_atom_one_light_**<br>[source](https://github.com/dexpota/kitty-themes/blob/master/themes/AtomOneLight.conf)                   |        ![atom_one_light](images/atom_one_light.png)        |
+|                  **_aura_**<br>[source](https://github.com/daltonmenezes/aura-theme)                   |        ![aura](images/aura.png)        |
 |                                        **_ayu_dark_**<br>[source](https://github.com/ayu-theme/ayu-colors)                                        |              ![ayu_dark](images/ayu_dark.png)              |
 |                                       **_ayu_light_**<br>[source](https://github.com/ayu-theme/ayu-colors)                                        |             ![ayu_light](images/ayu_light.png)             |
 |                                   **_baitong_**<br>[source](https://github.com/cypj/baitong-theme)                                                |         ![baitong](images/baitong.png)                     |
@@ -56,14 +59,15 @@ configuration file.
 |                                  **_catppuccin_macchiato_**<br>[source](https://github.com/catppuccin/alacritty)                                  |  ![catppuccin_macchiato](images/catppuccin_macchiato.png)  |
 |                                    **_catppuccin_mocha_**<br>[source](https://github.com/catppuccin/alacritty)                                    |      ![catppuccin_mocha](images/catppuccin_mocha.png)      |
 |                               **_challenger_deep_**<br>[source](https://github.com/challenger-deep-theme/alacritty)                               |       ![challenger_deep](images/challenger_deep.png)       |
-|                                              **_city_lights_**<br>[source](https://citylights.xyz/)                                               |           ![city_lights](images/citylights.png)            |
+|                                                                  **_chicago95_**                                                                  |               ![chicago95](images/chicago95.png)           |
+|                                              **_citylights_**<br>[source](https://citylights.xyz/)                                               |           ![citylights](images/citylights.png)            |
 |                                 **_Cobalt2_**<br>[source](https://github.com/wesbos/cobalt2/tree/master/Cobalt2)                                  |               ![Cobalt2](images/Cobalt2.png)               |
 |                                 **_cyber_punk_neon_**<br>[source](https://github.com/Roboron3042/Cyberpunk-Neon)                                  |       ![cyber_punk_neon](images/cyber_punk_neon.png)       |
-|                                                **_darcula_**<br>[source](https://draculatheme.com)                                                |               ![darcula](images/darcula.png)               |
 |         **_dark_pastels_**<br>[source](https://invent.kde.org/utilities/konsole/-/blob/master/data/color-schemes/DarkPastels.colorscheme)         |          ![dark_pastels](images/dark_pastels.png)          |
 |                                                                  **_deep_space_**                                                                 |             ![depp_space](images/deep_space.png)           |
 |                                     **_doom_one_**<br>[source](https://github.com/hlissner/emacs-doom-themes)                                     |              ![doom_one](images/doom_one.png)              |
 |                                                **_dracula_**<br>[source](https://draculatheme.com)                                                |               ![dracula](images/dracula.png)               |
+|                                                **_dracula_plus_**<br>[source](https://draculatheme.com)                                           |               ![dracula_plus](images/dracula_plus.png)     |
 |                                     **_everforest_dark_**<br>[source](https://github.com/sainnhe/everforest)                                      |       ![everforest_dark](images/everforest_dark.png)       |
 |                                     **_everforest_light_**<br>[source](https://github.com/sainnhe/everforest)                                     |      ![everforest_light](images/everforest_light.png)      |
 |                                           **_falcon_**<br>[source](https://github.com/fenetikm/falcon)                                            |                ![falcon](images/falcon.png)                |
@@ -78,10 +82,13 @@ configuration file.
 | **_github_light_colorblind_**<br>[source](https://github.com/projekt0n/github-theme-contrib/blob/main/themes/alacritty/github_light_colorblind.yml)| ![github_light_colorblind](images/github_light_colorblind.png) |
 | **_github_light_high_contrast_**<br>[source](https://github.com/projekt0n/github-theme-contrib/blob/main/themes/alacritty/github_light_high_contrast.yml)| ![github_light_high_contrast](images/github_light_high_contrast.png)|
 | **_github_light_tritanopia_**<br>[source](https://github.com/projekt0n/github-theme-contrib/blob/main/themes/alacritty/github_light_tritanopia.yml)| ![github_light_tritanopia](images/github_light_tritanopia.png) |
+|                                                                   **_google_**                                                                    |                ![falcon](images/google.png)                |
 |                                                                   **_gotham_**                                                                    |                ![falcon](images/gotham.png)                |
 |                                  **_gnome_terminal_**<br>[source](https://gitlab.gnome.org/GNOME/gnome-terminal)                                  |        ![gnome_terminal](images/gnome_terminal.png)        |
 |                                        **_gruvbox_dark_**<br>[source](https://github.com/morhetz/gruvbox)                                         |          ![gruvbox_dark](images/gruvbox_dark.png)          |
 |                                        **_gruvbox_light_**<br>[source](https://github.com/morhetz/gruvbox)                                        |         ![gruvbox_light](images/gruvbox_light.png)         |
+|                                  **_gruvbox_material_hard_dark_**<br>[source](https://github.com/sainnhe/gruvbox-material)                        | ![gruvbox_material_hard_dark](images/gruvbox_material_hard_dark.png)   |
+|                                  **_gruvbox_material_hard_light_**<br>[source](https://github.com/sainnhe/gruvbox-material)                       | ![gruvbox_material_hard_light](images/gruvbox_material_hard_light.png) |
 |                                  **_gruvbox_material_medium_dark_**<br>[source](https://github.com/sainnhe/gruvbox-material)                      | ![gruvbox_material_medium_dark](images/gruvbox_material_medium_dark.png) |
 |                                  **_gruvbox_material_medium_light_**<br>[source](https://github.com/sainnhe/gruvbox-material)                      | ![gruvbox_material_medium_light](images/gruvbox_material_medium_light.png) |
 |                                  **_hardhacker_**<br>[source](https://github.com/hardhackerlabs/theme-alacritty)                                  |      ![hardhacker](images/hardhacker.png)                  |
@@ -105,7 +112,9 @@ configuration file.
 |                      **_monokai_pro_**<br>[source](https://gist.github.com/AlphaTechnolog/d1d5f6557f77f71519cb5713268da7dd)                       |           ![monokai_pro](images/monokai_pro.png)           |
 |                             **_moonlight_ii_vscode_**<br>[source](https://github.com/atomiks/moonlight-vscode-theme)                              |   ![moonlight_ii_vscode](images/moonlight_ii_vscode.png)   |
 |                                            **_msx_**<br>[source](https://paulwratt.github.io/programmers-palettes/HW-MSX/HW-MSX-palettes.html)    |              ![msx](images/msx.png)              |
+|                                       **_nightfly_**<br>[source](https://github.com/bluz71/vim-nightfly-colors)                                   |              ![nightfly](images/nightfly.png)              |
 |                                       **_nightfox_**<br>[source](https://github.com/EdenEast/nightfox.nvim)                                       |              ![nightfox](images/nightfox.png)              |
+|                                       **_night_owl_**<br>[source](https://vscodethemes.com/e/sdras.night-owl/night-owl)                           |             ![night_owl](images/night_owl.png)             |
 |                                                             **_night_owlish_light_**                                                              |    ![night_owlish_light](images/night_owlish_light.png)    |
 |                                       **_noctis-lux_**<br>[source](https://github.com/liviuschera/noctis)                                         |              ![noctis-lux](images/noctis-lux.png)              |
 |                                          **_nord_**<br>[source](https://github.com/arcticicestudio/nord)                                          |                  ![nord](images/nord.png)                  |
@@ -118,6 +127,7 @@ configuration file.
 |              **_papercolor_dark_**<br>[source](https://github.com/NLKNguyen/papercolor-theme/blob/master/colors/PaperColor.vim#L126)              |       ![papercolor_dark](images/papercolor_dark.png)       |
 |              **_papercolor_light_**<br>[source](https://github.com/NLKNguyen/papercolor-theme/blob/master/colors/PaperColor.vim#L36)              |      ![papercolor_light](images/papercolor_light.png)      |
 |                  **_papertheme_**<br>[source](https://github.com/s6muel/paper-theme/blob/main/themes/alacritty/paper-theme.yml)                   |         ![papercolor_light](images/papertheme.png)         |
+|**_pastel_dark_**<br>[source](https://github.com/gnachman/iTerm2/blob/01c280152acebfe123f56e0215a3c178297a0edc/plists/ColorPresets.plist#L3715-L3924)|          ![pastel_dark](images/pastel_dark.png)           |
 |                                   **_pencil_dark_**<br>[source](https://github.com/mattly/iterm-colors-pencil)                                    |           ![pencil_dark](images/pencil_dark.png)           |
 |                                   **_pencil_light_**<br>[source](https://github.com/mattly/iterm-colors-pencil)                                   |          ![pencil_light](images/pencil_light.png)          |
 |                                                                   **_rainbow_**                                                                   |               ![rainbow](images/rainbow.png)               |
@@ -130,6 +140,7 @@ configuration file.
 | **smoooooth**<br>[source](https://github.com/gnachman/iTerm2/blob/33945e63ad48ed80d6cc1adf7cbeb663217652d2/plists/ColorPresets.plist#L4345-L4685) |             ![smoooooth](images/smoooooth.png)             |
 |                                      **_solarized_dark_**<br>[source](http://ethanschoonover.com/solarized)                                       |        ![solarized_dark](images/solarized_dark.png)        |
 |                                      **_solarized_light_**<br>[source](http://ethanschoonover.com/solarized)                                      |       ![solarized_light](images/solarized_light.png)       |
+|                               **_solarized_osaka_**<br>[source](https://github.com/craftzdog/solarized-osaka.nvim)                                |     ![solarized_osaka](images/solarized_osaka.png)         |
 |                                    **_taerminal_**<br>[source](https://github.com/cozywigwam/iterm-taerminal)                                     |             ![taerminal](images/taerminal.png)             |
 |   **_tango_dark_**<br>[source](https://github.com/GNOME/gnome-terminal/blob/18939a24d21d6b7c6edd57a00a3a8a48f3aecec5/src/profile-editor.c#L213)   |            ![tango_dark](images/tango_dark.png)            |
 |                                      **_tender_**<br>[source](https://github.com/huyvohcmc/tender-alacritty)                                      |                ![tender](images/tender.png)                |
