@@ -1,32 +1,32 @@
-# Midnight Haze theme
-# Source https//github.com/hafiz-muhammad/midnight-haze-alacritty-theme
+# Windows 95 Color Scheme
+# To have the authentic experience in Chicago95 GTK Theme.
 
 # Default colors
 [colors.primary]
-background = '#0c0c16'
-foreground = '#d8dee9'
+background = '#000000'
+foreground = '#C0C7C8'
 
 # Normal colors
 [colors.normal]
-black   = '#2c2c3d'
-red     = '#ff6e6e'
-green   = '#9ec875'
-yellow  = '#ffa759'
-blue    = '#70a7d4'
-magenta = '#d291e0'
-cyan    = '#96e0e0'
-white   = '#d8dee9'
+black   = '#000000'
+red     = '#A80000'
+green   = '#00A800'
+yellow  = '#A85400'
+blue    = '#0000A8'
+magenta = '#A800A8'
+cyan    = '#00A8A8'
+white   = '#A8A8A8'
 
 # Bright colors
 [colors.bright]
-black   = '#414166'
-red     = '#ff8d8d'
-green   = '#b3d987'
-yellow  = '#ffc57f'
-blue    = '#9bb3d3'
-magenta = '#ffa1ff'
-cyan    = '#9cd8d8'
-white   = '#ffffff'
+black   = '#545454'
+red     = '#FC5454'
+green   = '#54FC54'
+yellow  = '#FCFC54'
+blue    = '#5454FC'
+magenta = '#FC54FC'
+cyan    = '#54FCFC'
+white   = '#FFFFFF'
 
 [[keyboard.bindings]]
 chars = "\u001BOH"

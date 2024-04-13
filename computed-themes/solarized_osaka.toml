@@ -1,32 +1,32 @@
-# Midnight Haze theme
-# Source https//github.com/hafiz-muhammad/midnight-haze-alacritty-theme
+# Colors (Solarized Osaka)
+# Source https://github.com/craftzdog/solarized-osaka.nvim
 
 # Default colors
 [colors.primary]
-background = '#0c0c16'
-foreground = '#d8dee9'
+background = '#001a1d'
+foreground = '#839496'
 
 # Normal colors
 [colors.normal]
-black   = '#2c2c3d'
-red     = '#ff6e6e'
-green   = '#9ec875'
-yellow  = '#ffa759'
-blue    = '#70a7d4'
-magenta = '#d291e0'
-cyan    = '#96e0e0'
-white   = '#d8dee9'
+black   = '#073642'
+red     = '#dc322f'
+green   = '#859900'
+yellow  = '#b58900'
+blue    = '#268bd2'
+magenta = '#d33682'
+cyan    = '#2aa198'
+white   = '#eee8d5'
 
 # Bright colors
 [colors.bright]
-black   = '#414166'
-red     = '#ff8d8d'
-green   = '#b3d987'
-yellow  = '#ffc57f'
-blue    = '#9bb3d3'
-magenta = '#ffa1ff'
-cyan    = '#9cd8d8'
-white   = '#ffffff'
+black   = '#4c4c4c'
+red     = '#cb4b16'
+green   = '#586e75'
+yellow  = '#657b83'
+blue    = '#839496'
+magenta = '#6c71c4'
+cyan    = '#93a1a1'
+white   = '#fdf6e3'
 
 [[keyboard.bindings]]
 chars = "\u001BOH"

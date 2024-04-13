@@ -1,31 +1,31 @@
-# Colors (One Dark)
+# Colors (Gruvbox Material Hard Light)
 
 # Default colors
 [colors.primary]
-background = '#282c34'
-foreground = '#abb2bf'
+background = '#f9f5d7'
+foreground = '#654735'
 
 # Normal colors
 [colors.normal]
-black   = '#1e2127'
-red     = '#e06c75'
-green   = '#98c379'
-yellow  = '#d19a66'
-blue    = '#61afef'
-magenta = '#c678dd'
-cyan    = '#56b6c2'
-white   = '#abb2bf'
+black   = '#654735'
+red     = '#c14a4a'
+green   = '#6c782e'
+yellow  = '#b47109'
+blue    = '#45707a'
+magenta = '#945e80'
+cyan    = '#4c7a5d'
+white   = '#f2e5bc'
 
-# Bright colors
+# Bright colors (same as normal colors)
 [colors.bright]
-black   = '#5c6370'
-red     = '#e06c75'
-green   = '#98c379'
-yellow  = '#d19a66'
-blue    = '#61afef'
-magenta = '#c678dd'
-cyan    = '#56b6c2'
-white   = '#ffffff'
+black   = '#654735'
+red     = '#c14a4a'
+green   = '#6c782e'
+yellow  = '#b47109'
+blue    = '#45707a'
+magenta = '#945e80'
+cyan    = '#4c7a5d'
+white   = '#f2e5bc'
 
 [[keyboard.bindings]]
 chars = "\u001BOH"
